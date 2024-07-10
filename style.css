@@ -39,21 +39,19 @@
                     background: rgb(13, 19, 33);
                     color:rgb(255, 255, 255)
 }
-/* banner 2 desing*/
-.banner2{
-                    
-                    margin: 0 auto;             
-                    width: 1140px;
-                    height: 1393px;
-                    border-radius: 16px;
-                    background-color: rgba(13, 19, 33, 0.02);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover; 
-                    margin-top: 50px; 
+/* banner 2 desing*/                                  
                   
-}
+.red{
+                    width: 946px;
+                    height: 1000px
+                    border-radius: 16px;
+                    background-color: red;
+                    margin: 0 auto;
 
+}
+.pic{
+                    float: right;
+}
 .text h2{
                     color: rgb(13, 19, 33);
                     font-size: 48px;
@@ -184,4 +182,15 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
+}
+.btm{               width: 548px;
+                    height: 57px;
+                    box-sizing: border-box;
+                    border: 1px solid rgba(13, 19, 33, 0.15);
+                    border-radius: 8px;
+                    background: rgb(255, 255, 255);
+}
+.btn{
+                    width: 100px;
+                    height: 50px;
 }
