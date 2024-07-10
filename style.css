@@ -1,0 +1,89 @@
+/*banner desing*/
+.banner-contianer{
+                    width: 1440px;
+                    height: 652px;
+                    margin: 0 auto;
+                    background-image: url("/assets/Hero-bg.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;  
+}
+.banner-contant{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+   
+}
+.banner-contant h2{
+                    color: rgb(13, 19, 33);
+                    font-family: Azeret Mono;
+                    font-size: 48px;
+                    font-weight: 800;
+                    line-height: 68px;
+                    text-align: center;
+}
+.banner-contant p{
+                    color: rgb(13, 19, 33);
+                    font-family: Azeret Mono;       
+                    text-align: center;
+}
+.banner-contant img{
+                    width: 300px;
+                    height: 300px;
+}
+.banner-contant button{
+                    width: 208px;
+                    height: 66px;
+                    border-radius: 8px;
+                    background: rgb(13, 19, 33);
+                    color:rgb(255, 255, 255)
+}
+/* banner 2 desing*/
+.banner2{
+                    
+                    margin: 0 auto;             
+                    width: 1140px;
+                    height: 1393px;
+                    border-radius: 16px;
+                    background-color: rgba(13, 19, 33, 0.02);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover; 
+                    margin-top: 50px; 
+                  
+}
+
+.text h2{
+                    color: rgb(13, 19, 33);
+                    font-size: 48px;
+                    font-weight: 800;
+                    line-height: 68px;
+                    text-align: center;
+                    margin: 24px 0px;
+}
+.text p{
+                    color: rgb(13, 19, 33);
+                    font-family: Azeret Mono;  
+                    text-align: center;     
+                   
+                  
+}
+
+#video1{             
+                    position: static;
+                    width: 1076px;
+                    height: 520px;
+                    flex: none;
+                   
+}         
+.banner3{
+                    position: static;
+                    width: 1140px;
+                    height: 614px;
+                    padding: 32px;   
+                    box-sizing: border-box;
+                    border: 1px solid rgba(13, 19, 33, 0.2);
+                    border-radius: 16px;
+                    margin: 0 auto;
+}
