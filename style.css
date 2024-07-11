@@ -134,26 +134,6 @@
                     flex-direction: row;
 
 }
-#apple{
-                    width: 364px;
-                    height: 299px;
-                    border-radius: 16px;
-                    background: rgba(255, 76, 30, 0.05);
-}
-
-#apple1{            width: 364px;
-                    height: 299px;
-                    border-radius: 16px;
-                    background: rgba(0, 76, 232, 0.05);
-
-}
-#apple2{             width: 364px;
-                    height: 299px;
-                    border-radius: 16px;
-                    background: rgba(255, 223, 0, 0.05);
-                  
-
-}
 .math{        
                     width: 1140px;
                     height: 300px;
@@ -163,6 +143,42 @@
                    
                   
 }
+#apple{
+                    width: 364px;
+                    height: 299px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 0px;
+                    border-radius: 16px;
+                    background: rgba(255, 76, 30, 0.05);
+}
+
+
+#apple1{            width: 364px;
+                    height: 299px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 0px;
+                    border-radius: 16px;
+                    background: rgba(0, 76, 232, 0.05);
+}
+#apple2{             width: 364px;
+                    height: 299px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 0px;
+                    border-radius: 16px;
+                    background: rgba(255, 223, 0, 0.05);
+                  
+
+}
+
 .set{               width: 1140px;
                     height: 219px;
                     background-color: bisque;
